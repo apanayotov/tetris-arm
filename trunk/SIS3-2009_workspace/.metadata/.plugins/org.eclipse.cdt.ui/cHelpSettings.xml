@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cHelpSettings>
+<project name="SIS3 Project Template">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+</project>
+<project name="Basic DC Motor Control">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+</project>
+<project name="SIS3 Project Example 1">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+</project>
+</cHelpSettings>

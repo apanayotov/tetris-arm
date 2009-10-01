@@ -1,0 +1,12 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.cdt.mylyn.ui,1.0.100.200906161748,"org.eclipse.cdt.mylyn.ui",1250719849046
+stopped,bundle,org.eclipse.cdt.ui,5.1.0.200906161748,"org.eclipse.cdt.ui",1250719849046
+stopped,bundle,org.eclipse.cdt.core,5.1.0.200906161748,"org.eclipse.cdt.core",1250719849046
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1250719849046
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1250719849046
+stopped,bundle,org.eclipse.mylyn.ide.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.ide.ui",1250719849046
+stopped,bundle,org.eclipse.mylyn.team.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.team.ui",1250719849046
+stopped,bundle,org.eclipse.mylyn.resources.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.resources.ui",1250719849046
+stopped,bundle,org.eclipse.mylyn.wikitext.tasks.ui,1.1.0.v20090617-0100-e3x,"org.eclipse.mylyn.wikitext.tasks.ui",1250719849062
+stopped,bundle,org.eclipse.mylyn.context.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.context.ui",1250719849062
+stopped,bundle,org.eclipse.mylyn.help.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.help.ui",1250719849062

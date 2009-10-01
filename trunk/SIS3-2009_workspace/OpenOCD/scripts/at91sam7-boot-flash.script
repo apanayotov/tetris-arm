@@ -1,0 +1,8 @@
+wait_halt                    # halt the processor and wait
+
+at91sam7 gpnvm 0 2 set
+#mww 0xffffff64 0x5a00020b
+
+#reset                       # reset processor
+shutdown                     # stop OpenOCD
+

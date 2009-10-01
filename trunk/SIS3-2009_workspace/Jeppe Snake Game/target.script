@@ -1,0 +1,26 @@
+#	OpenOCD Target Script for Atmel AT91SAM7X256
+#
+#	Programmer: James P Lynch
+#	            Krzysztof Sierszecki
+#
+
+wait_halt                        # halt the processor and wait
+armv4_5 core_state arm           # select the core state
+mww 0xfffffd44 0xa0008000        # watchdog disable (AT91C_WDTC_WDMR)
+mww 0xfffffd08 0xa5000001        # enable user reset (AT91C_RSTC_RMR)
+mww 0xffffff60 0x003c0100        # set flash wait state (AT91C_MC_FMR)
+sleep 10                         # wait 10 ms
+mww 0xfffffc20 0xa0000601        # enable main oscillator (AT91C_PMC_MOR)
+sleep 10                         # wait 10 ms
+mww 0xfffffc2c 0x00481c0e        # set PLL register (AT91C_PMC_PLLR)
+sleep 10                         # wait 10 ms
+mww 0xfffffc30 0x00000007        # set master clock to PLL (AT91C_PMC_MCKR)
+sleep 100                        # wait 100 ms
+#flash info 0                    
+#flash probe 0
+#flash banks
+flash write_image snake-flash.elf   # program the onchip flash
+
+reset run                        # reset processor
+shutdown                         # stop OpenOCD
+
