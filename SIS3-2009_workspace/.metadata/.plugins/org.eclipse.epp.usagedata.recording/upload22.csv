@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.monitor.ui",1250772229246
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250773128470
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250775277794
+started,bundle,org.eclipse.equinox.p2.ui,1.0.100.v20090527-1812,"org.eclipse.equinox.p2.ui",1250775281809
+started,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk",1250775281903
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.update",1250775281934
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250775282419
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250775369777
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250775392714
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250775463916
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250775470510
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1250775474979

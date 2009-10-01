@@ -1,0 +1,3 @@
+#Wed Sep 30 20:38:19 CEST 2009
+eclipse.preferences.version=1
+org.eclipse.core.variables.valueVariables=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<valueVariables>\r\n<valueVariable description\="Path to the OpenOCD binary directory" name\="openocd_path" readOnly\="false" value\="C\:\\openocd-r717\\bin"/>\r\n</valueVariables>\r\n
